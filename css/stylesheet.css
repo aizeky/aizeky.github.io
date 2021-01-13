@@ -20,7 +20,7 @@ header, footer {
 header h1 {
     font-size: 32px;
     padding-left: 95px;
-    font-family:serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 main {
@@ -50,7 +50,7 @@ footer .legal {
 }
 
 footer .highlight {
-    color: #FE4E00;
+    color: #FFAE03;
     font-size: .8em;
     margin-top: 0;
 }
