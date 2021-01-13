@@ -6,11 +6,12 @@ body {
 #index-main {
     max-width: 800px;
     margin: auto; 
-    background-color: #EEE;
+    background-color: #DDDDDD;
+    border-radius: 15px;
 }
 
 header, footer {
-    background-color: #1F5673;
+    background-color: #006992;
     color: white;
     padding: 8px;
     border-radius: 15px;
@@ -19,6 +20,7 @@ header, footer {
 header h1 {
     font-size: 32px;
     padding-left: 95px;
+    font-family:serif;
 }
 
 main {
@@ -48,7 +50,7 @@ footer .legal {
 }
 
 footer .highlight {
-    color: #D9D9D9;
+    color: #FE4E00;
     font-size: .8em;
     margin-top: 0;
 }
