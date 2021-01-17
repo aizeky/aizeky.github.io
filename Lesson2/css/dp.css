@@ -25,9 +25,7 @@ header {
     letter-spacing: 2.5px;
     font-size: 1em;
     text-transform: uppercase;
-    background-color: black;
     padding: 10px;
-    border-radius: 15px 15px 0 0;
 }
 
 .bigger {
@@ -35,6 +33,9 @@ header {
     font-size: 3.8em;
     letter-spacing: 1px;
     text-align: center;
+    background-color: black;
+    border-radius: 15px 15px 0 0;
+
 }
 
 h2 {
