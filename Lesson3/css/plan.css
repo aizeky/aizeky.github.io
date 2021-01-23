@@ -101,7 +101,7 @@ p {
     margin: 0 25px;
 }
 
-/*Changes for color-scheme.css****/
+/*Changes for color-scheme.html****/
 
 .color_scheme {
     display: block;
@@ -141,9 +141,20 @@ p {
 }
 
 
-/*Changes for target-audience.css****/
+/*Changes for target-audience.html****/
 
 .audience {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 30px;
+
+}
+
+
+/*Changes for typography.html****/
+
+.type {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -191,7 +202,7 @@ p {
 
     .main3 {
         grid-column: 3/4;
-        padding: 100px 0;
+        padding: 75px 0;
     }
 
     h1 {
