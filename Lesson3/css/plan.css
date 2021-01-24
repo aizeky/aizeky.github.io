@@ -53,14 +53,21 @@ nav ul li a {
     font-size: 1em;
 }
 
+
 li {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.2em;
 }
 
+
 .logo {
     margin-top: 10px;
 }
+
+nav a:hover {
+    transform: scale(1.5);
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
@@ -118,6 +125,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 50px;
+    grid-gap: 20px;
 }
 
 .cs1 {
