@@ -66,6 +66,7 @@ li {
 
 nav a:hover {
     transform: scale(1.5);
+    transition: transform .6s ease;
 }
 
 main {
@@ -99,6 +100,11 @@ p {
     text-decoration: none;
     list-style-type: none;
 }   
+
+.main1 {
+    text-align: center;
+    margin: 0 25px;
+}
 
 .main2 {
     margin: 25px auto auto auto;
