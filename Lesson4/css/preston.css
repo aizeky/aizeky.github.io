@@ -1,0 +1,127 @@
+body {
+    background-color: #F0F0F0; 
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 360px;
+    background-color: #F2D377;
+}
+
+#navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+#navigation li:first-child{
+    display: block;
+}
+
+#navigation li {
+    display: none;
+}
+
+#navigation a:link, #navigation a:visited, #navigation a:hover, #navigation a:active, #navigation a:focus {
+    display: block;
+    padding: 1.6em;
+    text-emphasis: left;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header {
+    background-color: #F17547;
+}
+
+.site_name {
+    display: grid;
+    grid-template-columns: repeat(2, 130px 1fr);
+}
+
+.logo {
+    margin-right: 10px;
+    padding: 28px 0 15px 15px;
+    width: 95px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: #235B8C;
+}
+
+.ham {
+    align-items: center;
+}
+
+.forecast_img {
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+main {
+    padding: 0 25px 50px 25px;
+}
+
+main p {
+    hyphens: auto;
+    padding-bottom: 25px;
+}
+
+#navigation a:hover {
+    color: white;
+    background-color: #F2D377;
+}
+
+#navigation.responsive li {
+    display: block;
+}
+
+footer {
+    background-color:  #F17547;
+    padding: 25px;
+    color: white;
+}
+
+.map_img {
+    padding-top: 15px;
+}
+
+@media only screen and (min-width: 34.5em){
+    nav {
+        max-width: 100%;
+    }
+    #navigation {
+        grid-template-columns: repeat(5,auto);
+    }
+    #navigation li {
+        display: block;
+    }
+    #navigation li a {
+        text-align: center;
+    }
+    #navigation li:first-child {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 54.5em){
+    #navigation {
+        width: 800px;
+        margin: 16px auto;
+    }
+
+    h1 {
+        float: none;
+    }
+
+    .logo {
+        float: none;
+    }
+}
