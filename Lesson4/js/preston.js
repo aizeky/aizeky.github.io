@@ -1,4 +1,5 @@
 window.addEventListener('load', ()=>{
+
     const hambutton = document.querySelector('.ham');
     const mainnav = document.querySelector('#navigation');
 
@@ -6,3 +7,12 @@ window.addEventListener('load', ()=>{
 
     window.onresize = ()=> {if (window.innerWidth>760) mainnav.classList.remove('responsive');};
 });
+
+function showAnnouncement() {
+
+    var Now = new Date();
+    var CurrentDay = Now.getDay();
+    if (CurrentDay == 6) {
+        
+    }
+}
