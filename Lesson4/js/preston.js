@@ -8,11 +8,11 @@ window.addEventListener('load', ()=>{
     window.onresize = ()=> {if (window.innerWidth>760) mainnav.classList.remove('responsive');};
 });
 
-function showAnnouncement() {
+function showAnnouncement('saturday') {
 
     var Now = new Date();
     var CurrentDay = Now.getDay();
-    if (CurrentDay == 6) {
-        
+    if (CurrentDay == 5) {
+    saturday.style.display = 'block';
     }
 }
